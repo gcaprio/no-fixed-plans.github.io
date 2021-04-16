@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    @include serif-font;
+    @include sans-serif-font;
 }
 
 hr {
@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-    @include sans-serif-font;
+    @include serif-font;
 }
 
 p {
@@ -157,7 +157,7 @@ header {
     background-position: center;
     background-image: url('../img/header.jpg');
     text-align: center;
-    color: white;
+    color: black;
     .header-content {
         position: relative;
         text-align: center;
@@ -165,8 +165,7 @@ header {
         width: 100%;
         .header-content-inner {
             h1 {
-                font-weight: 700;
-                text-transform: uppercase;
+                font-weight: 400;
                 margin-top: 0;
                 margin-bottom: 0;
             }
@@ -174,8 +173,8 @@ header {
                 margin: 30px auto;
             }
             p {
-                font-weight: 300;
-                color: rgba(white, .7);
+                font-weight: 400;
+                color: rgba(black, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
