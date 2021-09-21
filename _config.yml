@@ -1,9 +1,9 @@
 # Site settings
 title: No Fixed Plans
-email: gcaprio@makenofixedplans.com
+email: griffin@nofixedplans.xyz
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://makenofixedplans.com"
+url: "https://nofixedplans.xyz"
 
 twitter_username: gcaprio
 github_username: gcaprio
